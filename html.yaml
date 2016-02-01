@@ -1,0 +1,8 @@
+title: HTML valide
+question: Laquelle de ces lignes représente un code HTML <strong>valide</strong>?
+choices:
+  - answer: <code>&lt;p>Lorem ipsum &lt;em>dolor &lt;strong>sit&lt;/strong>&lt;/em> amet&lt;/p></code>
+    correct: true
+  - answer: <code>&lt;p>Lorem ipsum &lt;html>dolor &lt;strong>sit&lt;/strong>&lt;/html> amet&lt;/p></code>
+  - answer: <code>&lt;p>Lorem ipsum &lt;em>dolor &lt;strong>sit&lt;/em>&lt;/strong> amet&lt;/p></code>
+  - answer: <code>&lt;p>Lorem ipsum &lt;em>dolor &lt;strong>sit&lt;/strong>&lt;em> amet&lt;/p></code>

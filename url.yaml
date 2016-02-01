@@ -1,0 +1,16 @@
+title: URLs absolues et relatives
+question: Lesquelles de ces URLs sont des URLs relatives?
+multiChoice: true
+choices:
+  - answer: '<code>http://www.example.com/url/relative</code>'
+  - answer: '<code>www.example.com/url/relative</code>'
+    correct: yes
+  - answer: '<code>http://www.example.com/</code>'
+  - answer: '<code>./url/relative?user=toto</code>'
+    correct: yes
+  - answer: '<code>/www.example.com</code>'
+  - answer: '<code>../url/relative</code>'
+    correct: yes
+  - answer: '<code>url</code>'
+    correct: yes
+  - answer: '<code>/#jump</code>'

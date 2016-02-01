@@ -1,0 +1,13 @@
+title: Modification dynamique du DOM
+question: |
+  <p>On considère le code HTML suivant :</p>
+  <pre><code>&lt;p>Lorem ipsum &lt;span class="toto">dolor sit &lt;em>amet&lt;/em>&lt;/span>&lt;/p></code></pre>
+  <p>On execute le code JavaScript suivant :</p>
+  <pre><code>document.querySelector('.toto em').classList.add('titi')</code></pre>
+  <p>Quel sera le contenu du DOM après l'exécution du code ?</p>
+choices:
+  - answer: '<code>&lt;p>Lorem ipsum &lt;span class="toto titi">dolor sit &lt;em>amet&lt;/em>&lt;/span>&lt;/p></code>'
+  - answer: '<code>&lt;p>Lorem ipsum &lt;span class="toto">dolor sit &lt;em>amet&lt;/em>&lt;em>titi&lt;/em>&lt;/span>&lt;/p></code>'
+  - answer: '<code>&lt;p>Lorem ipsum &lt;span class="toto">dolor sit &lt;em class="titi">amet&lt;/em>&lt;/span>&lt;/p></code>'
+    correct: true
+  - answer: '<code>&lt;p>Lorem ipsum &lt;span class="toto titi">dolor sit &lt;em class="titi">amet&lt;/em>&lt;/span>&lt;/p></code>'

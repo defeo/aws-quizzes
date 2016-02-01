@@ -1,0 +1,9 @@
+title: Canonicalisation
+question: Laquelle des URLs suivantes est équivalente à <code>http://example.com/user/toto/doc.html</code>?
+choices:
+  - answer: '<code>http://example.com/user/../toto/doc.html</code>'
+  - answer: '<code>https://example.com/user/toto/doc.html</code>'
+  - answer: '<code>http://www.example.com/user/toto/doc.html</code>'
+  - answer: '<code>http://example.com/user/./titi/../toto/doc.html</code>'
+    correct: true
+    

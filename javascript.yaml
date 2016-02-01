@@ -1,0 +1,23 @@
+title: Éxecution javascript
+question: |
+  <p>Qu'affiche le code suivant <strong>dans la console</strong>?</p>
+  <pre><code>function toto(obj, fun) {
+    for (var k in obj) {
+      console.log( fun(obj[k]) );
+    }
+    return fun(1);
+  }
+
+  toto({ foo: 'bar', bar: 'foo'}, function(val) { return val + val; })</code></pre>
+choices:
+  - answer: |
+      <pre><code>11</code></pre>
+  - answer: |
+      <pre><code>barbar
+      foofoo</code></pre>
+    correct: true
+  - answer: |
+      <pre><code>2</code></pre>
+  - answer: |
+      <pre><code>foofoo
+      barbar</code></pre>

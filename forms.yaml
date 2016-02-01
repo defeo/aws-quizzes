@@ -1,0 +1,9 @@
+title: Type des contrôles
+question: "Lequel de ces types de contrôle permet d'envoyer un formulaire?"
+choices:
+  - answer: button
+  - answer: checkbox
+  - answer: submit
+    correct: true
+  - answer: text
+  - answer: file

@@ -1,0 +1,13 @@
+title: Entêtes HTTP
+question: Lesquelles de ces entêtes peuvent apparaître dans une <em>réponse</em> HTTP?
+multiChoice: true
+choices:
+  - answer: Content-Type
+    correct: true
+  - answer: Host
+  - answer: Location
+    correct: true
+  - answer: Accept-Type
+  - answer: Referer
+  - answer: Set-Cookie
+    correct: true

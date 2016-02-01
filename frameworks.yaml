@@ -1,0 +1,14 @@
+title: Frameworks web
+question: Quels composants trouve-t-on communément dans un framework web ?
+multiChoice: true
+choices:
+  - answer: Routeur de requêtes
+    correct: true
+  - answer: Validateur HTML
+  - answer: Moteurs de templates
+    correct: true
+  - answer: Serveur FTP
+  - answer: "Couche d'abstraction de bases de données"
+    correct: true 
+  - answer: Proxy HTTP
+  - answer: Drone protocolaire
