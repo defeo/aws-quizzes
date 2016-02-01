@@ -1,0 +1,22 @@
+title: Routage
+question: |
+  <p>Un routeur est configuré avec les routes suivantes :</p>
+  <pre><code>$app->get('/foo/bar/{x}', function(Application $app, $x) {
+    return "Hello $x";
+  });
+  $app->post('/foo/bar', function(Application $app) {
+    return $app->redirect('/foo');
+  });
+  $app->get('/foo/bar', function(Application $app) {
+    return $app->json( array('ok' => 202) );
+  });
+  </code></pre>
+  <p>Le navigateur envoie la requête suivante :</p>
+  <pre><code>GET /foo/bar/toto HTTP/1.1</code></pre>
+  <p>Quel code d'état renvoie le serveur ?</p>
+choices:
+  - answer: 404 Not found
+  - answer: 202 Accepted
+  - answer: 301 Moved Permanently
+  - answer: 200 Ok
+    correct: true
