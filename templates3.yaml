@@ -1,0 +1,48 @@
+title: Twig
+question: |
+  <p>On considère le template Twig suivant :</p>
+  <pre><code>&lt;h1>Please, {{ name | upper }}, buy:&lt;/h1>
+  &lt;ul>
+  {% for i in shoplist %}
+      &lt;li>{{ i }}&lt;/li>
+  {% endfor %}
+  &lt;/ul>
+  </code></pre>
+  <p>Quel est le résultat de la compilation de ce template dans le contexte donné ci-dessous?</p>
+  <pre><code>array(
+    'name' => 'John',
+    'shoplist' => array('apples', 'bananas', 'oranges')
+  )
+  </code></pre>
+choices:
+  - answer: |
+      <pre><code>&lt;h1>Please, NAME, buy:&lt;/h1>
+      &lt;ul>
+          &lt;li>apples&lt;/li>
+          &lt;li>bananas&lt;/li>
+          &lt;li>oranges&lt;/li>
+      &lt;/ul>
+      </code></pre>
+  - answer: |
+      <pre><code>&lt;h1>Please, JOHN, buy:&lt;/h1>
+      &lt;ul>
+          &lt;li>apples&lt;/li>
+          &lt;li>bananas&lt;/li>
+          &lt;li>oranges&lt;/li>
+      &lt;/ul>
+      </code></pre>
+    correct: true
+  - answer: |
+      <pre><code>&lt;h1>Please, John, buy:&lt;/h1>
+      &lt;ul>
+          &lt;li>apples, bananas, oranges&lt;/li>
+      &lt;/ul>
+      </code></pre>
+  - answer: |
+      <pre><code>&lt;h1>Please, NAME, buy:&lt;/h1>
+      &lt;ul>
+          &lt;li>0&lt;/li>
+          &lt;li>1&lt;/li>
+          &lt;li>2&lt;/li>
+      &lt;/ul>
+      </code></pre>
