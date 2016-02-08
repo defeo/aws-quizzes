@@ -1,0 +1,12 @@
+title: Cookies
+question: |
+  <p>L'en-tête <code>Set-Cookie:</code>&hellip;</p>
+multiChoice: true
+choices:
+  - answer: '&hellip;est envoyée par le navigateur dans la requête.'
+  - answer: '&hellip;est envoyée par le serveur dans la réponse.'
+    correct: true
+  - answer: '&hellip;demande au navigateur de stocker un cookie.'
+    correct: true
+  - answer: '&hellip;demande au serveur de stocker un cookie.'
+  - answer: '&hellip;peut contenir des noix.'

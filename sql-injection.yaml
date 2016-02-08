@@ -1,0 +1,14 @@
+title: Injection SQL
+question: |
+  <p>On forme une requête SQL par le code suivant :</p>
+  <pre><code>$app['db']->fetchAssoc("SELECT * FROM toto WHERE $col=?", array($val));</code></pre>
+  <p>Lequel des assignements suivants donne lieu à une injection SQL ?</p>
+choices:
+  - answer: "<code>$val = '0; DROP TABLE toto'</code>"
+  - answer: "<code>$col = '0; DROP TABLE toto; SELECT 1='</code>"
+    correct: true
+  - answer: "<code>$val = '\'; DROP TABLE toto'</code>"
+  - answer: "<code>$col = '\'; DROP TABLE toto; SELECT 1='</code>"
+  - answer: "<code>$val = 'DROP TABLE toto'</code>"
+  - answer: "<code>$col = 'DROP TABLE toto'</code>"
+  

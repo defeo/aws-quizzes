@@ -1,0 +1,15 @@
+title: Requêtes préparées
+question: |
+  <p>Quelle est la requête SQL formée par la requête préparée suivante ?</p>
+  <pre><code>$number = 27;
+  $app['db']->fetchAssoc("SELECT number FROM ratp WHERE type=? AND hour=20 AND number=?",
+                         array('bus', $number));
+  </code></pre>
+choices:
+  - answer: "<code>SELECT number FROM ratp WHERE type='bus' AND hour=20 AND number=27</code>"
+    correct: true
+  - answer: "<code>SELECT number FROM ratp WHERE type=bus AND hour=20 AND number=27</code>"
+  - answer: "<code>SELECT 27 FROM ratp WHERE type=? AND hour=20 AND 27=?</code>"
+  - answer: "<code>SELECT number FROM ratp WHERE type='bus' AND hour=20 AND number='27'</code>"
+  - answer: "<code>SELECT number FROM ratp WHERE type='bus' AND hour=27</code>"
+  - answer: Cette requête préparée donne une erreur.

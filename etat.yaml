@@ -1,0 +1,14 @@
+title: "Maintien d'état"
+question: |
+  <p>Maintenir l'état dans une application web est nécessaire pour&hellip;</p>
+multiChoice: true
+choices:
+  - answer: "L'authentification et l'autorisation"
+    correct: true
+  - answer: Les téléchargements de fichiers
+  - answer: La gestion de profils utilisateur
+    correct: true
+  - answer: Les feuilles de style
+  - answer: "Un panier d'achat (site marchand)"
+    correct: true
+  - answer: Contrôler la force
