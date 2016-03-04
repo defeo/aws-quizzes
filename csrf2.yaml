@@ -1,0 +1,13 @@
+title: CSRF et Clickjacking
+question: >
+  <p>Lesquelles des affirmations suivantes sont vraies ?</p>
+multiChoice: true
+choices:
+  - answer: "Pour se proteger des attaques trans-domaine, il suffit d'insérer des <em>nonces</em> dans les requêtes."
+  - answer: "Les applications AJAX ne sont pas vulnérables aux attaques de type Clickjacking."
+  - answer: "Un site qui n'utilise pas d'iframes n'est pas vulnérable aux attaques CSRF."
+  - answer: "Faire expirer rapidement les sessions limite les risques d'attaque Clickjacking."
+    correct: true
+  - answer: "Une attaque CSRF peut être menée sans que l'utilisateur s'aperçoive de rien."
+    correct: true
+  - answer: "Il est nécessaire de convaincre l'utilisateur à cliquer sur un lien malicieux afin de mener une attaque CSRF."

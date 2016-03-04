@@ -1,0 +1,19 @@
+title: Cross-site request forgery
+question: >
+  <p>Lesquelles de ces techniques permettent de se proteger contre les
+  attaques CSRF</p>
+multiChoice: true
+choices:
+  - answer: "Contrôler l'entête <code>Referer</code>."
+    correct: true
+  - answer: "Contrôler l'entête <code>Origin</code>."
+    correct: true
+  - answer: "Contrôler l'entête <code>Host</code>."
+  - answer: "Utiliser des <em>nonces</em>."
+    correct: true
+  - answer: "Demander confirmation à l'utilisateur."
+    correct: true
+  - answer: "Échapper les caractères spéciaux."
+  - answer: "Utilser des requêtes SQL préparées."
+  - answer: "Utiliser des cookies chiffrés."
+  - answer: "Servir les pages uniquement via HTTPS."
