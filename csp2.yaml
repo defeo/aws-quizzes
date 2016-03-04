@@ -1,0 +1,20 @@
+title: Content Security Policy
+question: |
+  <p>Lesquelles de ces actions sont bloquées par la CSP suivante ?</p>
+  <pre><code>default-src 'self';
+  img-src static.example.com;
+  script-src https://example.com https://gstatic.com;
+  content-src api.example.com;
+  child-src *.example.com
+  </code></pre>
+multiChoice: true
+choices:
+  - answer: '<code>&lt;img src="https://static.example.com/chat.jpg"></code>'
+  - answer: '<code>&lt;iframe src="http://www.example.com/">&lt;/iframe></code>'
+  - answer: '<code>&lt;script src="http://example.com/main.js">&lt;/script></code>'
+    correct: true
+  - answer: '<code>&lt;script>alert("hello");&lt;/script></code>'
+    correct: true
+  - answer: '<code>(new XMLHttpRequest()).open("GET", "http://static.example.com/chat.jpg")</code>'
+    correct: true
+  - answer: '<code>&lt;script src="https://gstatic.com/stat.js">&lt;/script></code>'

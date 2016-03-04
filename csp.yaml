@@ -1,0 +1,18 @@
+title: Chargement de scripts
+question: >
+  <p>Lesquelles de ces politiques peuvent interdire le chargement d'un script,
+  même lorsqu'il appartient au même domaine que la page l'incluant ?</p>
+multiChoice: true
+choices:
+  - answer: Iframe sandboxing
+    correct: true
+  - answer: Same origin policy
+  - answer: Cross origin resource sharing
+  - answer: Mixed content
+    correct: true
+  - answer: Strict transport security
+  - answer: Subresource integrity
+    correct: true
+  - answer: Content security policy
+    correct: true
+  - answer: Cross site request forgery

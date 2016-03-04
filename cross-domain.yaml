@@ -1,0 +1,16 @@
+title: Same origin policy
+question: >
+  <p>Indiquer lesquelles des actions suivantes sont bloquées par la
+  Same Origin Policy</p>
+multiChoice: true
+choices:
+  - answer: "Charger l'image <code>http://media.com/chat.jpg</code> dans la page <code>http://exemple.com/index.html</code>."
+  - answer: "Envoyer une requête AJAX de <code>media.com</code> vers <code>exemple.com</code>."
+  - answer: "Lire la réponse d'une requête AJAX envoyée de <code>media.com</code> vers <code>exemple.com</code>."
+    correct: true
+  - answer: "Utiliser un formulaire <code>&lt;form action='http://media.com/login'></code> sur la page <code>http://exemple.com/index.html</code>."
+  - answer: "Lire la réponse d'une requête AJAX envoyée de <code>media.com</code> vers <code>exemple.com</code>, lorsque <code>media.com</code> a activé la politique CORS."
+    correct: true
+  - answer: "Lire la réponse d'une requête AJAX envoyée de <code>media.com</code> vers <code>exemple.com</code>, lorsque <code>exemple.com</code> a activé la politique CORS."
+  - answer: "Inclure un <code>&lt;iframe src='http://media.com/chat.jpg'>&lt;/iframe></code> dans la page <code>http://exemple.com/index.html</code>"
+  - answer: "Inclure un <code>&lt;script src='http://media.com/chat.js'>&lt;/script></code> dans la page <code>http://exemple.com/index.html</code>"
