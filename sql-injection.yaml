@@ -1,14 +1,17 @@
 title: Injection SQL
 question: |
-  <p>On forme une requête SQL par le code suivant :</p>
-  <pre><code>$app['db']->fetchAssoc("SELECT * FROM toto WHERE $col=?", array($val));</code></pre>
-  <p>Lequel des assignements suivants donne lieu à une injection SQL ?</p>
+  <p>Une application utilise le code suivant pour effacer le compte d'un utilisateur :</p>
+  <pre><code>$app['db']->query("DELETE FROM users WHERE id=$uid AND pwd='$pwd'");</code></pre>
+  <p>En supposant qu'un attaquant puisse contrôler les valeurs des variables
+  <code>$uid</code> et <code>$pwd</code>, lesquels des assignements suivants
+  lui permettraient d'effacer l'intégralité de la table ?</p>
+multiChoice: true
 choices:
-  - answer: "<code>$val = '0; DROP TABLE toto'</code>"
-  - answer: "<code>$col = '0; DROP TABLE toto; SELECT 1='</code>"
+  - answer: <code>$uid = "DROP TABLE users;";</code>
+  - answer: <code>$uid = "0 OR 1=1";</code>
+  - answer: <code>$pwd = "' OR '1'='1";</code>
     correct: true
-  - answer: "<code>$val = '\'; DROP TABLE toto'</code>"
-  - answer: "<code>$col = '\'; DROP TABLE toto; SELECT 1='</code>"
-  - answer: "<code>$val = 'DROP TABLE toto'</code>"
-  - answer: "<code>$col = 'DROP TABLE toto'</code>"
-  
+  - answer: <code>$uid = "' OR '1'='1"; $pwd = "0 OR 1=1";</code>
+  - answer: <code>$uid = "0 OR 1=1"; $pwd = "' OR '1'='1";</code>
+    correct: true
+  - answer: <code>$uid = "*"; $pwd="' OR '1'='1";</code>
