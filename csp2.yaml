@@ -4,7 +4,7 @@ question: |
   <pre><code>default-src 'self';
   img-src static.example.com;
   script-src https://example.com https://gstatic.com;
-  content-src api.example.com;
+  connect-src api.example.com;
   child-src *.example.com
   </code></pre>
 multiChoice: true
