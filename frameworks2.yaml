@@ -1,14 +1,14 @@
 title: Routage
 question: |
   <p>Un routeur est configuré avec les routes suivantes :</p>
-  <pre><code>$app->get('/foo/bar/{x}', function(Application $app, $x) {
-    return "Hello $x";
+  <pre><code>app.get('/foo/bar/:x', function(req, res) {
+    res.send(`Hello ${req.params.x}`);
   });
-  $app->post('/foo/bar', function(Application $app) {
-    return $app->redirect('/foo');
+  app.post('/foo/bar', function(req, res) {
+    res.redirect('/foo');
   });
-  $app->get('/foo/bar', function(Application $app) {
-    return $app->json( array('ok' => 202) );
+  app.get('/foo/bar', function(req, res) {
+    res.json({ ok : 202 });
   });
   </code></pre>
   <p>Le navigateur envoie la requête suivante :</p>

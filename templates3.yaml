@@ -1,6 +1,6 @@
-title: Twig
+title: Nunjucks
 question: |
-  <p>On considère le template Twig suivant :</p>
+  <p>On considère le template Nunjucks suivant :</p>
   <pre><code>&lt;h1>Please, {{ name | upper }}, buy:&lt;/h1>
   &lt;ul>
   {% for i in shoplist %}

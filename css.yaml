@@ -1,18 +1,16 @@
 title: Sélecteurs CSS
 question: >
-  Lesquels des sélecteurs suivants permettent de sélectionner la
-  balise en gras dans ce code HTML ?<br>
-  <code>&lt;p>Lorem ipsum &lt;span id="toto">dolor sit <b>&lt;em>amet&lt;/em></b>&lt;/span>&lt;/p></code>
+  Lesquels des sélecteurs suivants permettent de sélectionner (uniquement) la balise en gras dans ce code HTML ?<br>
+  <code>&lt;p>Lorem ipsum &lt;span id=\"toto\">dolor sit <b>&lt;em>amet&lt;/em></b>&lt;/span>&lt;/p></code>
 multiChoice: true
 choices:
-  - answer: <code>em</code>
+  - answer: '<code>em</code>'
     correct: true
-  - answer: <code>p em</code>
+  - answer: '<code>p em</code>'
     correct: true
-  - answer: <code>p, em</code>
-    correct: true
+  - answer: '<code>p, em</code>'
   - answer: '<code>em p</code>'
-  - answer: <code>span.em</code>
+  - answer: '<code>span.em</code>'
   - answer: '<code>#em</code>'
   - answer: '<code>#toto</code>'
   - answer: '<code>#toto em</code>'

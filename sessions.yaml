@@ -4,11 +4,11 @@ question: |
 multiChoice: true
 choices:
   - answer: "Les sessions nécessitent d'une base de données."
-  - answer: "Les identifiants de sessions doivent être générés par le client."
+  - answer: "Les identifiants de session doivent être générés par le client."
   - answer: "Le client ne peut pas modifier les données de la session sans l'aide du serveur."
     correct: true
   - answer: "Les sessions nécessitent des cookies."
-  - answer: "Empêchent le vol de données."
-  - answer: "Sont maintenues entre une connexion et la suivante."
+  - answer: "Les sessions empêchent le vol de données."
+  - answer: "Les données des sessions sont maintenues entre deux connexions HTTP."
     correct: true
     
