@@ -1,9 +1,9 @@
 title: Requêtes préparées
 question: |
   <p>Quelle est la requête SQL formée par la requête préparée suivante ?</p>
-  <pre><code>$number = 27;
-  $app['db']->fetchAssoc("SELECT number FROM ratp WHERE type=? AND hour=20 AND number=?",
-                         array('bus', $number));
+  <pre><code>var number = 27;
+  knex.raw("SELECT number FROM ratp WHERE type=? AND hour=20 AND number=?",
+           ['bus', number]);
   </code></pre>
 choices:
   - answer: "<code>SELECT number FROM ratp WHERE type='bus' AND hour=20 AND number=27</code>"

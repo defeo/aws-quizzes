@@ -1,17 +1,17 @@
 title: Injection SQL
 question: |
   <p>Une application utilise le code suivant pour effacer le compte d'un utilisateur :</p>
-  <pre><code>$app['db']->query("DELETE FROM users WHERE id=$uid AND pwd='$pwd'");</code></pre>
+  <pre><code>knex.raw(`DELETE FROM users WHERE id=${uid} AND pwd='${pwd}'`);</code></pre>
   <p>En supposant qu'un attaquant puisse contrôler les valeurs des variables
-  <code>$uid</code> et <code>$pwd</code>, lesquels des assignements suivants
+  <code>uid</code> et <code>pwd</code>, lesquels des assignements suivants
   lui permettraient d'effacer l'intégralité de la table ?</p>
 multiChoice: true
 choices:
-  - answer: <code>$uid = "DROP TABLE users;";</code>
-  - answer: <code>$uid = "0 OR 1=1";</code>
-  - answer: <code>$pwd = "' OR '1'='1";</code>
+  - answer: <code>var uid = "DROP TABLE users;";</code>
+  - answer: <code>var uid = "0 OR 1=1";</code>
+  - answer: <code>var pwd = "' OR '1'='1";</code>
     correct: true
-  - answer: <code>$uid = "' OR '1'='1"; $pwd = "0 OR 1=1";</code>
-  - answer: <code>$uid = "0 OR 1=1"; $pwd = "' OR '1'='1";</code>
+  - answer: <code>var uid = "' OR '1'='1"; var pwd = "0 OR 1=1";</code>
+  - answer: <code>var uid = "0 OR 1=1"; var pwd = "' OR '1'='1";</code>
     correct: true
-  - answer: <code>$uid = "*"; $pwd="' OR '1'='1";</code>
+  - answer: <code>var uid = "*"; var pwd = "' OR '1'='1";</code>
