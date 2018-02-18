@@ -3,10 +3,9 @@ question: |
   <p>Laquelle de ces lignes de code serveur a le plus de chances
   d'ouvrir une faille XSS ?</p>
 choices:
-  - answer: "<code>res.send('Hello ' + req.query.user);</code>"
+  - answer: "<code>res.send(`Hello ${req.query.user}`);</code>"
     correct: true
-  - answer: "<code>res.render('hello.twig', { 'user' : req.query.user });</code>"
-  - answer: "<code>db.query(\"SELECT * FROM users WHERE id='\" + req.query.user + \"'\");</code>"
-  - answer: "<code>db.query('SELECT * FROM users WHERE id=?', [req.query.user]);</code>"
-  - answer: "<code>console.log('Hello ' + req.query.user);</code>"
-
+  - answer: "<code>res.render('hello.njk', { 'user' : req.query.user });</code>"
+  - answer: "<code>knex.raw(`SELECT * FROM users WHERE id='${req.query.user}'`);</code>"
+  - answer: "<code>knex.raw('SELECT * FROM users WHERE id=?', [req.query.user]);</code>"
+  - answer: "<code>console.log(`Hello ${req.query.user}`);</code>"
