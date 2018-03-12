@@ -1,13 +1,19 @@
+_id: 58a4d0ff6e24fc1857e29115
 title: DBAL
 question: |
   <p>Quels sont les rôles d'une <em>Database Abstraction Layer</em> (DBAL) ?</p>
 multiChoice: true
 choices:
-  - answer: Gérer les connexions aux bases de données.
-    correct: true
-  - answer: Construire des requêtes <em>préparées</em>.
-    correct: true
-  - answer: Fournir une interface uniforme aux différents systèmes de gestion de bases de données.
-    correct: true
-  - answer: Gérer les cookies.
-  - answer: Protéger contre les attaques de type <em>« déni de service »</em>.
+  - correct: true
+    answer: 'Gérer les connexions aux bases de données.'
+    _id: 5a6fb1a9d89eda756bd88ada
+  - correct: true
+    answer: 'Construire des requêtes <em>préparées</em>.'
+    _id: 5a6fb1a9d89eda756bd88ad9
+  - correct: true
+    answer: 'Fournir une interface uniforme aux différents systèmes de gestion de bases de données.'
+    _id: 5a6fb1a9d89eda756bd88ad8
+  - answer: 'Gérer les cookies.'
+    _id: 5a6fb1a9d89eda756bd88ad7
+  - answer: 'Protéger contre les attaques de type <em>« déni de service »</em>.'
+    _id: 5a6fb1a9d89eda756bd88ad6

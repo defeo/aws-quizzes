@@ -1,9 +1,13 @@
+ _id: 58900075ba7ec5013560f7e9
 title: Canonicalisation
 question: Laquelle des URLs suivantes est équivalente à <code>http://example.com/user/toto/doc.html</code>?
 choices:
   - answer: '<code>http://example.com/user/../toto/doc.html</code>'
+    _id: 58900075ba7ec5013560f7f0
   - answer: '<code>https://example.com/user/toto/doc.html</code>'
+    _id: 58900075ba7ec5013560f7ef
   - answer: '<code>http://www.example.com/user/toto/doc.html</code>'
-  - answer: '<code>http://example.com/user/./titi/../toto/doc.html</code>'
-    correct: true
-    
+    _id: 58900075ba7ec5013560f7ee
+  - correct: true
+    answer: '<code>http://example.com/user/./titi/../toto/doc.html</code>'
+    _id: 58900075ba7ec5013560f7ed

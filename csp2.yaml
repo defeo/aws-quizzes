@@ -1,3 +1,4 @@
+_id: 58a4d1006e24fc1857e291a8
 title: Content Security Policy
 question: |
   <p>Lesquelles de ces actions sont bloquées par la CSP suivante ?</p>
@@ -10,11 +11,17 @@ question: |
 multiChoice: true
 choices:
   - answer: '<code>&lt;img src="https://static.example.com/chat.jpg"></code>'
+    _id: 5a6fb1a9d89eda756bd88a3c
   - answer: '<code>&lt;iframe src="http://www.example.com/">&lt;/iframe></code>'
-  - answer: '<code>&lt;script src="http://example.com/main.js">&lt;/script></code>'
-    correct: true
-  - answer: '<code>&lt;script>alert("hello");&lt;/script></code>'
-    correct: true
-  - answer: '<code>(new XMLHttpRequest()).open("GET", "http://static.example.com/chat.jpg")</code>'
-    correct: true
+    _id: 5a6fb1a9d89eda756bd88a3b
+  - correct: true
+    answer: '<code>&lt;script src="http://example.com/main.js">&lt;/script></code>'
+    _id: 5a6fb1a9d89eda756bd88a3a
+  - correct: true
+    answer: '<code>&lt;script>alert("hello");&lt;/script></code>'
+    _id: 5a6fb1a9d89eda756bd88a39
+  - correct: true
+    answer: '<code>(new XMLHttpRequest()).open("GET", "http://static.example.com/chat.jpg")</code>'
+    _id: 5a6fb1a9d89eda756bd88a38
   - answer: '<code>&lt;script src="https://gstatic.com/stat.js">&lt;/script></code>'
+    _id: 5a6fb1a9d89eda756bd88a37

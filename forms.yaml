@@ -1,9 +1,15 @@
+_id: 58900075ba7ec5013560f79a
 title: Type des contrôles
 question: "Lequel de ces types de contrôle permet d'envoyer un formulaire?"
 choices:
   - answer: button
+    _id: 58900075ba7ec5013560f7a2
   - answer: checkbox
-  - answer: submit
-    correct: true
+    _id: 58900075ba7ec5013560f7a1
+  - correct: true
+    answer: submit
+    _id: 58900075ba7ec5013560f7a0
   - answer: text
+    _id: 58900075ba7ec5013560f79f
   - answer: file
+    _id: 58900075ba7ec5013560f79e

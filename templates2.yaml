@@ -1,12 +1,19 @@
+_id: 58a4d0ff6e24fc1857e290ec
 title: Moteurs de templates
 question: <p>Quel problème résolvent les langages de templating ?</p>
 choices:
-  - answer: Séparation entre PHP et JavaScript
-  - answer: Séparation entre stockage et présentation des données
-  - answer: Séparation entre logique applicative et présentation des données
-    correct: true
-  - answer: Séparation entre client et serveur
-  - answer: Séparation entre logique applicative et stockage des données
-  - answer: Séparation entre bien et mal
-  - answer: Séparation entre HTML et CSS
-    
+  - answer: 'Séparation entre PHP et JavaScript'
+    _id: 5a6fb1a9d89eda756bd88ae4
+  - answer: 'Séparation entre stockage et présentation des données'
+    _id: 5a6fb1a9d89eda756bd88ae3
+  - correct: true
+    answer: 'Séparation entre logique applicative et présentation des données'
+    _id: 5a6fb1a9d89eda756bd88ae2
+  - answer: 'Séparation entre client et serveur'
+    _id: 5a6fb1a9d89eda756bd88ae1
+  - answer: 'Séparation entre logique applicative et stockage des données'
+    _id: 5a6fb1a9d89eda756bd88ae0
+  - answer: 'Séparation entre bien et mal'
+    _id: 5a6fb1a9d89eda756bd88adf
+  - answer: 'Séparation entre HTML et CSS'
+    _id: 5a6fb1a9d89eda756bd88ade

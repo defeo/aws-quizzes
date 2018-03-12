@@ -1,3 +1,4 @@
+_id: 58a4d0ff6e24fc1857e29169
 title: Same origin policy
 question: >
   <p>Indiquer lesquelles des actions suivantes sont bloquées par la
@@ -5,12 +6,20 @@ question: >
 multiChoice: true
 choices:
   - answer: "Charger l'image <code>http://media.com/chat.jpg</code> dans la page <code>http://exemple.com/index.html</code>."
-  - answer: "Envoyer une requête AJAX de <code>media.com</code> vers <code>exemple.com</code>."
-  - answer: "Lire la réponse d'une requête AJAX envoyée de <code>media.com</code> vers <code>exemple.com</code>."
-    correct: true
-  - answer: "Utiliser un formulaire <code>&lt;form action='http://media.com/login'></code> sur la page <code>http://exemple.com/index.html</code>."
-  - answer: "Lire la réponse d'une requête AJAX envoyée de <code>media.com</code> vers <code>exemple.com</code>, lorsque <code>media.com</code> a activé la politique CORS."
-    correct: true
+    _id: 5a6fb1a9d89eda756bd88a36
+  - answer: 'Envoyer une requête AJAX de <code>media.com</code> vers <code>exemple.com</code>.'
+    _id: 5a6fb1a9d89eda756bd88a35
+  - correct: true
+    answer: "Lire la réponse d'une requête AJAX envoyée de <code>media.com</code> vers <code>exemple.com</code>."
+    _id: 5a6fb1a9d89eda756bd88a34
+  - answer: 'Utiliser un formulaire <code>&lt;form action="http://media.com/login"></code> sur la page <code>http://exemple.com/index.html</code>.'
+    _id: 5a6fb1a9d89eda756bd88a33
+  - correct: true
+    answer: "Lire la réponse d'une requête AJAX envoyée de <code>media.com</code> vers <code>exemple.com</code>, lorsque <code>media.com</code> a activé la politique CORS."
+    _id: 5a6fb1a9d89eda756bd88a32
   - answer: "Lire la réponse d'une requête AJAX envoyée de <code>media.com</code> vers <code>exemple.com</code>, lorsque <code>exemple.com</code> a activé la politique CORS."
-  - answer: "Inclure un <code>&lt;iframe src='http://media.com/chat.jpg'>&lt;/iframe></code> dans la page <code>http://exemple.com/index.html</code>"
-  - answer: "Inclure un <code>&lt;script src='http://media.com/chat.js'>&lt;/script></code> dans la page <code>http://exemple.com/index.html</code>"
+    _id: 5a6fb1a9d89eda756bd88a31
+  - answer: 'Inclure un <code>&lt;iframe src="http://media.com/chat.jpg">&lt;/iframe></code> dans la page <code>http://exemple.com/index.html</code>'
+    _id: 5a6fb1a9d89eda756bd88a30
+  - answer: 'Inclure un <code>&lt;script src="http://media.com/chat.js">&lt;/script></code> dans la page <code>http://exemple.com/index.html</code>'
+    _id: 5a6fb1a9d89eda756bd88a2f

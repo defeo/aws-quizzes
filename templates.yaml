@@ -1,10 +1,15 @@
-title: Échappement HTML
+_id: 58a4d0ff6e24fc1857e290e0
+title: 'Échappement HTML'
 question: >
   <p>Laquelle de ces séquences d'échappement HTML correspond aux caractères</p>
   <pre><code>"é" &lt; "è" && 2 > 0</code></pre>
 choices:
-  - answer: <code>&amp;quot;&amp;eacute;&amp;quot; &amp;lt; &amp;quot;&amp;egrave;&amp;quot; &amp;amp;&amp;amp; &amp;two; &amp;gt; &amp;zero;</code>
-  - answer: <code>&amp;quot;&amp;egrave;&amp;quot; &amp;lt; &amp;quot;&amp;eacute;&amp;quot; &amp;amp;&amp;amp; 2 &amp;gt; 0</code>
-  - answer: <code>&amp;apos;&amp;eacute;&amp;apos; &amp;lt; &amp;apos;&amp;egrave;&amp;apos; &amp;amp;&amp;amp; 2 &amp;gt; 0</code>
-  - answer: '<code>&amp;quot;&amp;eacute;&amp;quot; &amp;lt; "&amp;egrave;" &amp;amp;&amp;amp; 2 &amp;gt; 0</code>'
-    correct: true
+  - answer: '<code>&amp;quot;&amp;eacute;&amp;quot; &amp;lt; &amp;quot;&amp;egrave;&amp;quot; &amp;amp;&amp;amp; &amp;two; &amp;gt; &amp;zero;</code>'
+    _id: 5a6fb1a9d89eda756bd88af2
+  - answer: '<code>&amp;quot;&amp;egrave;&amp;quot; &amp;lt; &amp;quot;&amp;eacute;&amp;quot; &amp;amp;&amp;amp; 2 &amp;gt; 0</code>'
+    _id: 5a6fb1a9d89eda756bd88af1
+  - answer: '<code>&amp;apos;&amp;eacute;&amp;apos; &amp;lt; &amp;apos;&amp;egrave;&amp;apos; &amp;amp;&amp;amp; 2 &amp;gt; 0</code>'
+    _id: 5a6fb1a9d89eda756bd88af0
+  - correct: true
+    answer: '<code>&amp;quot;&amp;eacute;&amp;quot; &amp;lt; "&amp;egrave;" &amp;amp;&amp;amp; 2 &amp;gt; 0</code>'
+    _id: 5a6fb1a9d89eda756bd88aef

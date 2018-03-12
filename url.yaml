@@ -1,16 +1,25 @@
+_id: 58900075ba7ec5013560f7d9
 title: URLs absolues et relatives
 question: Lesquelles de ces URLs sont des URLs relatives?
 multiChoice: true
 choices:
   - answer: '<code>http://www.example.com/url/relative</code>'
-  - answer: '<code>www.example.com/url/relative</code>'
-    correct: yes
+    _id: 58900075ba7ec5013560f7e4
+  - correct: true
+    answer: '<code>www.example.com/url/relative</code>'
+    _id: 58900075ba7ec5013560f7e3
   - answer: '<code>http://www.example.com/</code>'
-  - answer: '<code>./url/relative?user=toto</code>'
-    correct: yes
+    _id: 58900075ba7ec5013560f7e2
+  - correct: true
+    answer: '<code>./url/relative?user=toto</code>'
+    _id: 58900075ba7ec5013560f7e1
   - answer: '<code>/www.example.com</code>'
-  - answer: '<code>../url/relative</code>'
-    correct: yes
-  - answer: '<code>url</code>'
-    correct: yes
+    _id: 58900075ba7ec5013560f7e0
+  - correct: true
+    answer: '<code>../url/relative</code>'
+    _id: 58900075ba7ec5013560f7df
+  - correct: true
+    answer: '<code>url</code>'
+    _id: 58900075ba7ec5013560f7de
   - answer: '<code>/#jump</code>'
+    _id: 58900075ba7ec5013560f7dd

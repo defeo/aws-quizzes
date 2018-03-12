@@ -1,13 +1,20 @@
+_id: 58900075ba7ec5013560f7b3
 title: Entêtes HTTP
 question: Lesquelles de ces entêtes peuvent apparaître dans une <em>réponse</em> HTTP?
 multiChoice: true
 choices:
-  - answer: Content-Type
-    correct: true
+  - correct: true
+    answer: Content-Type
+    _id: 58900075ba7ec5013560f7bc
   - answer: Host
-  - answer: Location
-    correct: true
+    _id: 58900075ba7ec5013560f7bb
+  - correct: true
+    answer: Location
+    _id: 58900075ba7ec5013560f7ba
   - answer: Accept-Type
+    _id: 58900075ba7ec5013560f7b9
   - answer: Referer
-  - answer: Set-Cookie
-    correct: true
+    _id: 58900075ba7ec5013560f7b8
+  - correct: true
+    answer: Set-Cookie
+    _id: 58900075ba7ec5013560f7b7

@@ -1,3 +1,4 @@
+_id: 58a4d0ff6e24fc1857e29122
 title: Requêtes préparées
 question: |
   <p>Quelle est la requête SQL formée par la requête préparée suivante ?</p>
@@ -6,10 +7,16 @@ question: |
            ['bus', number]);
   </code></pre>
 choices:
-  - answer: "<code>SELECT number FROM ratp WHERE type='bus' AND hour=20 AND number=27</code>"
-    correct: true
-  - answer: "<code>SELECT number FROM ratp WHERE type=bus AND hour=20 AND number=27</code>"
-  - answer: "<code>SELECT 27 FROM ratp WHERE type=? AND hour=20 AND 27=?</code>"
-  - answer: "<code>SELECT number FROM ratp WHERE type='bus' AND hour=20 AND number='27'</code>"
-  - answer: "<code>SELECT number FROM ratp WHERE type='bus' AND hour=27</code>"
-  - answer: Cette requête préparée donne une erreur.
+  - correct: true
+    answer: '<code>SELECT number FROM ratp WHERE type=''bus'' AND hour=20 AND number=27</code>'
+    _id: 5a6fb1a9d89eda756bd88acc
+  - answer: '<code>SELECT number FROM ratp WHERE type=bus AND hour=20 AND number=27</code>'
+    _id: 5a6fb1a9d89eda756bd88acb
+  - answer: '<code>SELECT 27 FROM ratp WHERE type=? AND hour=20 AND 27=?</code>'
+    _id: 5a6fb1a9d89eda756bd88aca
+  - answer: '<code>SELECT number FROM ratp WHERE type=''bus'' AND hour=20 AND number=''27''</code>'
+    _id: 5a6fb1a9d89eda756bd88ac9
+  - answer: '<code>SELECT number FROM ratp WHERE type=''bus'' AND hour=27</code>'
+    _id: 5a6fb1a9d89eda756bd88ac8
+  - answer: 'Cette requête préparée donne une erreur.'
+    _id: 5a6fb1a9d89eda756bd88ac7

@@ -1,3 +1,4 @@
+_id: 58a4d0ff6e24fc1857e2914e
 title: Injection SQL
 question: |
   <p>Une application utilise le code suivant pour effacer le compte d'un utilisateur :</p>
@@ -7,11 +8,17 @@ question: |
   lui permettraient d'effacer l'intégralité de la table ?</p>
 multiChoice: true
 choices:
-  - answer: <code>var uid = "DROP TABLE users;";</code>
-  - answer: <code>var uid = "0 OR 1=1";</code>
-  - answer: <code>var pwd = "' OR '1'='1";</code>
-    correct: true
-  - answer: <code>var uid = "' OR '1'='1"; var pwd = "0 OR 1=1";</code>
-  - answer: <code>var uid = "0 OR 1=1"; var pwd = "' OR '1'='1";</code>
-    correct: true
-  - answer: <code>var uid = "*"; var pwd = "' OR '1'='1";</code>
+  - answer: '<code>var uid = "DROP TABLE users;";</code>'
+    _id: 5a6fb1a9d89eda756bd88ad2
+  - answer: '<code>var uid = "0 OR 1=1";</code>'
+    _id: 5a6fb1a9d89eda756bd88ad1
+  - correct: true
+    answer: '<code>var pwd = "'' OR ''1''=''1";</code>'
+    _id: 5a6fb1a9d89eda756bd88ad0
+  - answer: '<code>var uid = "'' OR ''1''=''1"; var pwd = "0 OR 1=1";</code>'
+    _id: 5a6fb1a9d89eda756bd88acf
+  - correct: true
+    answer: '<code>var uid = "0 OR 1=1"; var pwd = "'' OR ''1''=''1";</code>'
+    _id: 5a6fb1a9d89eda756bd88ace
+  - answer: '<code>var uid = "*"; var pwd = "'' OR ''1''=''1";</code>'
+    _id: 5a6fb1a9d89eda756bd88acd

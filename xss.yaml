@@ -1,11 +1,17 @@
+_id: 58a4d0ff6e24fc1857e2915c
 title: Failles XSS
 question: |
   <p>Laquelle de ces lignes de code serveur a le plus de chances
   d'ouvrir une faille XSS ?</p>
 choices:
-  - answer: "<code>res.send(`Hello ${req.query.user}`);</code>"
-    correct: true
-  - answer: "<code>res.render('hello.njk', { 'user' : req.query.user });</code>"
-  - answer: "<code>knex.raw(`SELECT * FROM users WHERE id='${req.query.user}'`);</code>"
-  - answer: "<code>knex.raw('SELECT * FROM users WHERE id=?', [req.query.user]);</code>"
-  - answer: "<code>console.log(`Hello ${req.query.user}`);</code>"
+  - correct: true
+    answer: '<code>res.send(`Hello ${req.query.user}`);</code>'
+    _id: 5a6fb1a9d89eda756bd88b0c
+  - answer: '<code>res.render(''hello.njk'', { ''user'' : req.query.user });</code>'
+    _id: 5a6fb1a9d89eda756bd88b0b
+  - answer: '<code>knex.raw(`SELECT * FROM users WHERE id=''${req.query.user}''`);</code>'
+    _id: 5a6fb1a9d89eda756bd88b0a
+  - answer: '<code>knex.raw(''SELECT * FROM users WHERE id=?'', [req.query.user]);</code>'
+    _id: 5a6fb1a9d89eda756bd88b09
+  - answer: '<code>console.log(`Hello ${req.query.user}`);</code>'
+    _id: 5a6fb1a9d89eda756bd88b08

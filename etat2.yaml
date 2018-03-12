@@ -1,12 +1,18 @@
+_id: 58900075ba7ec5013560f78d
 title: Cookies
 question: |
   <p>L'en-tête <code>Set-Cookie:</code>&hellip;</p>
 multiChoice: true
 choices:
   - answer: '&hellip;est envoyée par le navigateur dans la requête.'
-  - answer: '&hellip;est envoyée par le serveur dans la réponse.'
-    correct: true
-  - answer: '&hellip;demande au navigateur de stocker un cookie.'
-    correct: true
+    _id: 5a6fb1a9d89eda756bd88a76
+  - correct: true
+    answer: '&hellip;est envoyée par le serveur dans la réponse.'
+    _id: 5a6fb1a9d89eda756bd88a75
+  - correct: true
+    answer: '&hellip;demande au navigateur de stocker un cookie.'
+    _id: 5a6fb1a9d89eda756bd88a74
   - answer: '&hellip;demande au serveur de stocker un cookie.'
+    _id: 5a6fb1a9d89eda756bd88a73
   - answer: '&hellip;peut contenir des noix.'
+    _id: 5a6fb1a9d89eda756bd88a72

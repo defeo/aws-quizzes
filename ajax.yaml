@@ -1,13 +1,19 @@
+_id: 58a4d0ff6e24fc1857e29130
 title: AJAX
 question: <p>Lesquelles des affirmations suivantes sont vraies ?</p>
 multiChoice: true
 choices:
-  - answer: Le paradigme AJAX est basé sur les formulaires HTML.
+  - answer: 'Le paradigme AJAX est basé sur les formulaires HTML.'
+    _id: 5a6fb1a9d89eda756bd88a2b
   - answer: "Il n'est pas possible d'envoyer des requêtes de type GET avec <code>XMLHttpRequest</code>."
-  - answer: "Le paradigme AJAX nécessite que l'utilisateur ait activé JavaScript."
-    correct: True
-  - answer: "Une page web peut envoyer plusieurs requêtes asynchrones en parallèle."
-    correct: True
-  - answer: Un serveur PHP ne peut pas faire du AJAX.
-  - answer: La réponse à une requête AJAX doit être du XML.
-
+    _id: 5a6fb1a9d89eda756bd88a2a
+  - correct: true
+    answer: "Le paradigme AJAX nécessite que le navigateur de l'utilisateur ne bloque pas les scripts."
+    _id: 5a6fb1a9d89eda756bd88a29
+  - correct: true
+    answer: 'Une page web peut envoyer plusieurs requêtes asynchrones en parallèle.'
+    _id: 5a6fb1a9d89eda756bd88a28
+  - answer: 'Un serveur PHP ne peut pas faire du AJAX.'
+    _id: 5a6fb1a9d89eda756bd88a27
+  - answer: 'La réponse à une requête AJAX doit être du XML.'
+    _id: 5a6fb1a9d89eda756bd88a26

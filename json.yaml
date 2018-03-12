@@ -1,16 +1,24 @@
+_id: 58a4d0ff6e24fc1857e2913e
 title: JSON
 question: <p>Lesquelles des affirmations suivantes sont vraies ?</p>
 multiChoice: true
 choices:
   - answer: '<code>JSON.stringify</code> transforme une chaîne de caractères en données JavaScript.'
+    _id: 5a6fb1a9d89eda756bd88aba
   - answer: '<code>JSON.stringify</code> transforme une chaîne de caractères en données JSON.'
-  - answer: >
-      <code>JSON.parse('"toto": 2')</code> donne une erreur.
-    correct: true
+    _id: 5a6fb1a9d89eda756bd88ab9
+  - correct: true
+    answer: "<code>JSON.parse('\"toto\": 2')</code> donne une erreur.\n"
+    _id: 5a6fb1a9d89eda756bd88ab8
   - answer: '<code>{ color: "red" }</code> est du code JSON valide.'
+    _id: 5a6fb1a9d89eda756bd88ab7
   - answer: 'Les requêtes AJAX doivent renvoyer des réponses au format JSON.'
-  - answer: '<code>[1, 2, 3]</code> est du code JSON valide.'
-    correct: true
+    _id: 5a6fb1a9d89eda756bd88ab6
+  - correct: true
+    answer: '<code>[1, 2, 3]</code> est du code JSON valide.'
+    _id: 5a6fb1a9d89eda756bd88ab5
   - answer: 'Les serveurs PHP ne peuvent pas envoyer des réponses au format JSON.'
-  - answer: 'La fonction JavaScript <code>eval()</code> peut être utilisée pour décoder du JSON.'
-    correct: true
+    _id: 5a6fb1a9d89eda756bd88ab4
+  - correct: true
+    answer: 'La fonction JavaScript <code>eval()</code> peut être utilisée pour décoder du JSON.'
+    _id: 5a6fb1a9d89eda756bd88ab3

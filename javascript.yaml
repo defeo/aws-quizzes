@@ -1,3 +1,4 @@
+_id: 58900075ba7ec5013560f7c1
 title: Éxecution javascript
 question: |
   <p>Qu'affiche le code suivant <strong>dans la console</strong>?</p>
@@ -12,12 +13,16 @@ question: |
 choices:
   - answer: |
       <pre><code>11</code></pre>
+    _id: 58900075ba7ec5013560f7c8
   - answer: |
       <pre><code>barbar
       foofoo</code></pre>
     correct: true
+    _id: 58900075ba7ec5013560f7c7
   - answer: |
       <pre><code>2</code></pre>
+    _id: 58900075ba7ec5013560f7c6
   - answer: |
       <pre><code>foofoo
       barbar</code></pre>
+    _id: 58900075ba7ec5013560f7c5

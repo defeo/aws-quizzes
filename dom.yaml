@@ -1,3 +1,4 @@
+_id: 58900075ba7ec5013560f773
 title: Modification dynamique du DOM
 question: |
   <p>On considère le code HTML suivant :</p>
@@ -7,7 +8,11 @@ question: |
   <p>Quel sera le contenu du DOM après l'exécution du code ?</p>
 choices:
   - answer: '<code>&lt;p>Lorem ipsum &lt;span class="toto titi">dolor sit &lt;em>amet&lt;/em>&lt;/span>&lt;/p></code>'
+    _id: 58900075ba7ec5013560f77a
   - answer: '<code>&lt;p>Lorem ipsum &lt;span class="toto">dolor sit &lt;em>amet&lt;/em>&lt;em>titi&lt;/em>&lt;/span>&lt;/p></code>'
-  - answer: '<code>&lt;p>Lorem ipsum &lt;span class="toto">dolor sit &lt;em class="titi">amet&lt;/em>&lt;/span>&lt;/p></code>'
-    correct: true
+    _id: 58900075ba7ec5013560f779
+  - correct: true
+    answer: '<code>&lt;p>Lorem ipsum &lt;span class="toto">dolor sit &lt;em class="titi">amet&lt;/em>&lt;/span>&lt;/p></code>'
+    _id: 58900075ba7ec5013560f778
   - answer: '<code>&lt;p>Lorem ipsum &lt;span class="toto titi">dolor sit &lt;em class="titi">amet&lt;/em>&lt;/span>&lt;/p></code>'
+    _id: 58900075ba7ec5013560f777

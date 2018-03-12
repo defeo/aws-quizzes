@@ -1,3 +1,4 @@
+_id: 58a4d0ff6e24fc1857e290fb
 title: Nunjucks
 question: |
   <p>On considère le template Nunjucks suivant :</p>
@@ -23,6 +24,7 @@ choices:
           &lt;li>oranges&lt;/li>
       &lt;/ul>
       </code></pre>
+    _id: 5a6fb1a9d89eda756bd88aeb
   - answer: |
       <pre><code>&lt;h1>Please, JOHN, buy:&lt;/h1>
       &lt;ul>
@@ -32,12 +34,14 @@ choices:
       &lt;/ul>
       </code></pre>
     correct: true
+    _id: 5a6fb1a9d89eda756bd88aea
   - answer: |
       <pre><code>&lt;h1>Please, John, buy:&lt;/h1>
       &lt;ul>
           &lt;li>apples, bananas, oranges&lt;/li>
       &lt;/ul>
       </code></pre>
+    _id: 5a6fb1a9d89eda756bd88ae9
   - answer: |
       <pre><code>&lt;h1>Please, NAME, buy:&lt;/h1>
       &lt;ul>
@@ -46,3 +50,4 @@ choices:
           &lt;li>2&lt;/li>
       &lt;/ul>
       </code></pre>
+    _id: 5a6fb1a9d89eda756bd88ae8

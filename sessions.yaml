@@ -1,14 +1,20 @@
+_id: 58a4d0ff6e24fc1857e29107
 title: Sessions
 question: |
   <p>Lesquelles des affirmations suivantes sont vraies ?</p>
 multiChoice: true
 choices:
-  - answer: "Les sessions nécessitent d'une base de données."
-  - answer: "Les identifiants de session doivent être générés par le client."
-  - answer: "Le client ne peut pas modifier les données de la session sans l'aide du serveur."
-    correct: true
-  - answer: "Les sessions nécessitent des cookies."
-  - answer: "Les sessions empêchent le vol de données."
-  - answer: "Les données des sessions sont maintenues entre deux connexions HTTP."
-    correct: true
-    
+  - answer: 'Les sessions nécessitent d''une base de données.'
+    _id: 5a6fb1a9d89eda756bd88ac3
+  - answer: 'Les identifiants de session doivent être générés par le client.'
+    _id: 5a6fb1a9d89eda756bd88ac2
+  - correct: true
+    answer: 'Le client ne peut pas modifier les données de la session sans l''aide du serveur.'
+    _id: 5a6fb1a9d89eda756bd88ac1
+  - answer: 'Les sessions nécessitent des cookies.'
+    _id: 5a6fb1a9d89eda756bd88ac0
+  - answer: 'Les sessions empêchent le vol de données.'
+    _id: 5a6fb1a9d89eda756bd88abf
+  - correct: true
+    answer: 'Les données des sessions sont maintenues entre deux connexions HTTP.'
+    _id: 5a6fb1a9d89eda756bd88abe
