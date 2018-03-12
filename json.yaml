@@ -22,3 +22,9 @@ choices:
   - correct: true
     answer: 'La fonction JavaScript <code>eval()</code> peut être utilisée pour décoder du JSON.'
     _id: 5a6fb1a9d89eda756bd88ab3
+auths:
+  answer:
+    - before: '2018-05-04T19:00Z'
+  readanswer:
+    - after: '2018-05-04T19:00Z'
+    - level: 2

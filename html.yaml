@@ -11,3 +11,9 @@ choices:
     _id: 58900075ba7ec5013560f7ac
   - answer: '<code>&lt;p>Lorem ipsum &lt;em>dolor &lt;strong>sit&lt;/strong>&lt;em> amet&lt;/p></code>'
     _id: 58900075ba7ec5013560f7ab
+auths:
+  answer:
+    - before: '2018-03-23T19:00Z'
+  readanswer:
+    - after: '2018-03-23T19:00Z'
+    - level: 2

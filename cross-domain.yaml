@@ -23,3 +23,9 @@ choices:
     _id: 5a6fb1a9d89eda756bd88a30
   - answer: 'Inclure un <code>&lt;script src="http://media.com/chat.js">&lt;/script></code> dans la page <code>http://exemple.com/index.html</code>'
     _id: 5a6fb1a9d89eda756bd88a2f
+auths:
+  answer:
+    - before: '2018-05-04T19:00Z'
+  readanswer:
+    - after: '2018-05-04T19:00Z'
+    - level: 2

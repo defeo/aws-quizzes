@@ -17,3 +17,9 @@ choices:
     _id: 5a6fb1a9d89eda756bd88a27
   - answer: 'La réponse à une requête AJAX doit être du XML.'
     _id: 5a6fb1a9d89eda756bd88a26
+auths:
+  answer:
+    - before: '2018-05-04T19:00Z'
+  readanswer:
+    - after: '2018-05-04T19:00Z'
+    - level: 2

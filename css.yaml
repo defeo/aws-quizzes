@@ -24,3 +24,9 @@ choices:
   - correct: true
     answer: '<code>#toto em</code>'
     _id: 58900075ba7ec5013560f767
+auths:
+  answer:
+    - before: '2018-03-23T19:00Z'
+  readanswer:
+    - after: '2018-03-23T19:00Z'
+    - level: 2

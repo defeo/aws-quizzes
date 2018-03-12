@@ -22,3 +22,9 @@ choices:
     _id: 5a6fb1a9d89eda756bd88ace
   - answer: '<code>var uid = "*"; var pwd = "'' OR ''1''=''1";</code>'
     _id: 5a6fb1a9d89eda756bd88acd
+auths:
+  answer:
+    - before: '2018-04-20T19:00Z'
+  readanswer:
+    - after: '2018-04-20T19:00Z'
+    - level: 2

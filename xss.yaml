@@ -15,3 +15,9 @@ choices:
     _id: 5a6fb1a9d89eda756bd88b09
   - answer: '<code>console.log(`Hello ${req.query.user}`);</code>'
     _id: 5a6fb1a9d89eda756bd88b08
+auths:
+  answer:
+    - before: '2018-04-13T19:00Z'
+  readanswer:
+    - after: '2018-04-13T19:00Z'
+    - level: 2

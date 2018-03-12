@@ -18,3 +18,9 @@ choices:
   - correct: true
     answer: Set-Cookie
     _id: 58900075ba7ec5013560f7b7
+auths:
+  answer:
+    - before: '2018-04-06T19:00Z'
+  readanswer:
+    - after: '2018-04-06T19:00Z'
+    - level: 2

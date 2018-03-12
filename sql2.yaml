@@ -20,3 +20,9 @@ choices:
     _id: 5a6fb1a9d89eda756bd88ac8
   - answer: 'Cette requête préparée donne une erreur.'
     _id: 5a6fb1a9d89eda756bd88ac7
+auths:
+  answer:
+    - before: '2018-04-20T19:00Z'
+  readanswer:
+    - after: '2018-04-20T19:00Z'
+    - level: 2

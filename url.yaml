@@ -23,3 +23,9 @@ choices:
     _id: 58900075ba7ec5013560f7de
   - answer: '<code>/#jump</code>'
     _id: 58900075ba7ec5013560f7dd
+auths:
+  answer:
+    - before: '2018-03-23T19:00Z'
+  readanswer:
+    - after: '2018-03-23T19:00Z'
+    - level: 2

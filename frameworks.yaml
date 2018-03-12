@@ -20,3 +20,9 @@ choices:
     _id: 58a4d0ff6e24fc1857e290ca
   - answer: 'Drone protocolaire'
     _id: 58a4d0ff6e24fc1857e290c9
+auths:
+  answer:
+    - before: '2018-04-06T19:00Z'
+  readanswer:
+    - after: '2018-04-06T19:00Z'
+    - level: 2

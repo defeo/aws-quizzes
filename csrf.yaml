@@ -27,3 +27,9 @@ choices:
     _id: 5a6fb1a9d89eda756bd88a55
   - answer: 'Servir les pages uniquement via HTTPS.'
     _id: 5a6fb1a9d89eda756bd88a54
+auths:
+  answer:
+    - before: '2018-04-20T19:00Z'
+  readanswer:
+    - after: '2018-04-20T19:00Z'
+    - level: 2

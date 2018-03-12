@@ -18,3 +18,9 @@ choices:
   - correct: true
     answer: 'Les données des sessions sont maintenues entre deux connexions HTTP.'
     _id: 5a6fb1a9d89eda756bd88abe
+auths:
+  answer:
+    - before: '2018-04-20T19:00Z'
+  readanswer:
+    - after: '2018-04-20T19:00Z'
+    - level: 2

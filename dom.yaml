@@ -16,3 +16,9 @@ choices:
     _id: 58900075ba7ec5013560f778
   - answer: '<code>&lt;p>Lorem ipsum &lt;span class="toto titi">dolor sit &lt;em class="titi">amet&lt;/em>&lt;/span>&lt;/p></code>'
     _id: 58900075ba7ec5013560f777
+auths:
+  answer:
+    - before: '2018-03-30T19:00Z'
+  readanswer:
+    - after: '2018-03-30T19:00Z'
+    - level: 2

@@ -13,3 +13,9 @@ choices:
   - correct: true
     answer: '<code>&amp;quot;&amp;eacute;&amp;quot; &amp;lt; "&amp;egrave;" &amp;amp;&amp;amp; 2 &amp;gt; 0</code>'
     _id: 5a6fb1a9d89eda756bd88aef
+auths:
+  answer:
+    - before: '2018-04-13T19:00Z'
+  readanswer:
+    - after: '2018-04-13T19:00Z'
+    - level: 2

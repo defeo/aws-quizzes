@@ -17,3 +17,9 @@ choices:
     _id: 5a6fb1a9d89eda756bd88ad7
   - answer: 'Protéger contre les attaques de type <em>« déni de service »</em>.'
     _id: 5a6fb1a9d89eda756bd88ad6
+auths:
+  answer:
+    - before: '2018-04-20T19:00Z'
+  readanswer:
+    - after: '2018-04-20T19:00Z'
+    - level: 2

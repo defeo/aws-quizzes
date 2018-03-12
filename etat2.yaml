@@ -16,3 +16,9 @@ choices:
     _id: 5a6fb1a9d89eda756bd88a73
   - answer: '&hellip;peut contenir des noix.'
     _id: 5a6fb1a9d89eda756bd88a72
+auths:
+  answer:
+    - before: '2018-04-13T19:00Z'
+  readanswer:
+    - after: '2018-04-13T19:00Z'
+    - level: 2

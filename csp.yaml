@@ -25,3 +25,9 @@ choices:
     _id: 5a6fb1a9d89eda756bd88a41
   - answer: 'Cross site request forgery'
     _id: 5a6fb1a9d89eda756bd88a40
+auths:
+  answer:
+    - before: '2018-05-04T19:00Z'
+  readanswer:
+    - after: '2018-05-04T19:00Z'
+    - level: 2

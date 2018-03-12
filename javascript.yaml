@@ -26,3 +26,9 @@ choices:
       <pre><code>foofoo
       barbar</code></pre>
     _id: 58900075ba7ec5013560f7c5
+auths:
+  answer:
+    - before: '2018-03-30T19:00Z'
+  readanswer:
+    - after: '2018-03-30T19:00Z'
+    - level: 2
