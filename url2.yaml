@@ -1,4 +1,4 @@
- _id: 58900075ba7ec5013560f7e9
+_id: 58900075ba7ec5013560f7e9
 title: Canonicalisation
 question: Laquelle des URLs suivantes est équivalente à <code>http://example.com/user/toto/doc.html</code>?
 choices:
@@ -14,6 +14,6 @@ choices:
 auths:
   answer:
     - before: '2018-03-23T19:00Z'
-  readanswer:
+  readAnswer:
     - after: '2018-03-23T19:00Z'
     - level: 2

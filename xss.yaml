@@ -18,6 +18,6 @@ choices:
 auths:
   answer:
     - before: '2018-04-13T19:00Z'
-  readanswer:
+  readAnswer:
     - after: '2018-04-13T19:00Z'
     - level: 2
