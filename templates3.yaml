@@ -10,10 +10,10 @@ question: |
   &lt;/ul>
   </code></pre>
   <p>Quel est le résultat de la compilation de ce template dans le contexte donné ci-dessous?</p>
-  <pre><code>array(
-    'name' => 'John',
-    'shoplist' => array('apples', 'bananas', 'oranges')
-  )
+  <pre><code>{
+    'name': 'John',
+    'shoplist': ['apples', 'bananas', 'oranges']
+  }
   </code></pre>
 choices:
   - answer: |
