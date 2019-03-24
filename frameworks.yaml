@@ -18,7 +18,7 @@ choices:
     _id: 58a4d0ff6e24fc1857e290cb
   - answer: 'Proxy HTTP'
     _id: 58a4d0ff6e24fc1857e290ca
-  - answer: 'Drone protocolaire'
+  - answer: 'Droïde de protocole'
     _id: 58a4d0ff6e24fc1857e290c9
 auths:
   answer:
